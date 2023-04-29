@@ -3,6 +3,7 @@
 # Arthemetic Operator
 
 var a = parseInt(prompt("Enter value for a : "));
+
 var b = parseInt(prompt("Enter value for b : "));
 
 document.write("<br>Sum of a and b is : "+(a+b));
