@@ -47,4 +47,34 @@ document.write("<br>"+(a<=b)) //1
 document.write("<br>"+(a==b)) //0
 
 document.write("<br>"+(a!=b)) //1
+
+
+var a = parseInt(prompt("Enter value for a : "));
+var b = parseInt(prompt("Enter value for b : "));
+var c = parseInt(prompt("Enter value for c : "));
+
+if((a>b)&&(b>c))
+{
+    document.write("a: "+a+" b: "+b+" c: "+c);
+}
+else if((a>b)&&(c>b))
+{
+    document.write(a+" "+c+" "+b);
+}
+else if((b>a)&&(a>c))
+{
+    document.write(b+" "+a+" "+c);
+}
+else if((b>c)&&(c>a))
+{
+    document.write(b+" "+c+" "+a);
+}
+else if((c>a)&&(a>b))
+{
+    document.write(c+" "+a+" "+b);
+}
+else
+{
+    document.write(c+" "+b+" "+a);
+}
      
